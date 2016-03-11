@@ -1,0 +1,11 @@
+Task2 程序使用说明
+任务二的代码主要在src\任务二程序代码目录下
+1.打开特征值数据文件目录下任务二特征值数据下的data/task2中YN_dev_out_*.txt、YN_test_out.txt、YN_train_out_*.txt等文本文件
+2.删除文本文件中含有#的行
+3.打开svmTest.py/NaiveBayesClassifierFinal.py文件运行,svmTest文件中集成SVM模型与随机森林模型
+4.数据版本：dev、train版本3为包含所有答案的特征值，版本4为标记为从xml文件中解析出的标记GOOD答案的特征值，
+YN_dev_out_5.txt为利用任务一标记后的GOOD答案的特征值
+5.xmlParseforTask1.py 为任务一语义相似度提取运行文件，使用时需注意文件位置，
+xmlParseforTask2.py 为直接从xml文件中提取特征值xmlParseforTask2_2.py为从任务一结果文件与xml文件中提取特征值。
+注意：运行py文件，电脑需要安装python+nltk+scikit learning，否则无法运行
+使用时需注意文件位置，使用时需注意文件位置，使用时需注意文件位置
